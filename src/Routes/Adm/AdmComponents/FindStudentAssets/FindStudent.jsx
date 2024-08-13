@@ -263,7 +263,7 @@ export function FindStudent({ uploadStatus, headers }) {
       setStudents(response.data.listOfStudents);
       setLoading(false);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
   useEffect(() => {
@@ -276,7 +276,7 @@ export function FindStudent({ uploadStatus, headers }) {
         `${backDomain}/api/v1/students/${id}`,
         { headers }
       );
-      alert("Aluno excluído");
+      alert("Membro excluído");
       fetchStudents();
       handleSeeModal();
     } catch (error) {
@@ -365,7 +365,7 @@ export function FindStudent({ uploadStatus, headers }) {
         <input
           className="inputs-style"
           type="text"
-          placeholder="Pesquisar aluno"
+          placeholder="Pesquisar membro"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -567,7 +567,7 @@ export function FindStudent({ uploadStatus, headers }) {
             backgroundColor: textPrimaryColorContrast(),
           }}
         >
-          Editar aluno - {newName}
+          Editar membro - {newName}
         </HOne>
         <TabContext value={value}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -720,7 +720,7 @@ export function FindStudent({ uploadStatus, headers }) {
             >
               <HThree>
                 Esta ação não pode ser desfeita! Tem certeza que deseja excluir
-                o(a) aluno(a) <br />
+                o(a) membro(a) <br />
                 <br />
                 <span
                   style={{

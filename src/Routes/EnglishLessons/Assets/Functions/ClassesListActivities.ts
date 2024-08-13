@@ -2509,7 +2509,7 @@ export const lessons = [
           {
             english: "She teaches mathematics to elementary school students.",
             portuguese:
-              "Ela ensina matemática para alunos do ensino fundamental.",
+              "Ela ensina matemática para membros do ensino fundamental.",
           },
           {
             english: "He watches cooking videos to learn new recipes.",
@@ -4287,7 +4287,7 @@ export const lessons = [
             english:
               "The teacher is explaining a difficult concept to the students.",
             portuguese:
-              "O professor está explicando um conceito difícil para os alunos.",
+              "O professor está explicando um conceito difícil para os membros.",
           },
           {
             english: "Are the engineers designing a new prototype?",
@@ -4373,7 +4373,7 @@ export const lessons = [
           },
           {
             english: "The teacher educates students and assigns homework.",
-            portuguese: "O professor educa os alunos e atribui lição de casa.",
+            portuguese: "O professor educa os membros e atribui lição de casa.",
           },
           {
             english: "The engineer designs buildings and constructs bridges.",

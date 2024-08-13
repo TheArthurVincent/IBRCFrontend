@@ -22,7 +22,7 @@ export function NewTutoring({ headers }) {
 
   const [selectedStudentID, setSelectedStudentID] = useState("");
   const [student, setStudent] = useState([]);
-  const [standardValue, setStandardValue] = useState("Aluno");
+  const [standardValue, setStandardValue] = useState("Membro");
   const [button, setButton] = useState("Criar");
   const [tutorings, setTutorings] = useState([]);
   const [disabled, setDisabled] = useState(true);
@@ -34,7 +34,7 @@ export function NewTutoring({ headers }) {
       });
       setStudent(response.data.listOfStudents);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
   useEffect(() => {
@@ -70,7 +70,7 @@ export function NewTutoring({ headers }) {
     } catch (error) {
       setButton("Criar");
       alert("Erro ao salvar aulas");
-      setStandardValue("Aluno");
+      setStandardValue("Membro");
       fetchStudents();
     }
   };
@@ -102,7 +102,7 @@ export function NewTutoring({ headers }) {
             onChange={(e) => setStudentList(e.target.value)}
           >
             <option style={{ cursor: "pointer" }} value={standardValue} hidden>
-              Escolha o aluno
+              Escolha o membro
             </option>
             {student.map((option, index) => {
               return (

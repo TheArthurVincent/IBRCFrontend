@@ -75,7 +75,7 @@ export function NewStudent({ headers }) {
       reset();
     } catch (error) {
       setButton("...");
-      alert("Erro ao cadastrar aluno");
+      alert("Erro ao cadastrar membro");
       setButton("Cadastrar");
       reset();
     }
@@ -84,7 +84,7 @@ export function NewStudent({ headers }) {
   return (
     <>
       <FindStudent uploadStatus={upload} headers={headers} />
-      <HOne>Novo Aluno</HOne>
+      <HOne>Novo Membro</HOne>
       <form style={{ display: "grid", gap: "1rem" }} onSubmit={handleSubmit}>
         <FormList>
           <InputField

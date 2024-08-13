@@ -42,7 +42,7 @@ export default function RankingTimeline({
         });
         setStudentsList(response.data.listOfStudents);
       } catch (error) {
-        alert("Erro ao encontrar alunos");
+        alert("Erro ao encontrar membros");
       }
     }
   };

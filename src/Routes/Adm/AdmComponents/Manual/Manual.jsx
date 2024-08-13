@@ -31,7 +31,7 @@ export function Manual() {
         padding: "1rem",
       }}
     >
-      <HOne>Manual do Aluno</HOne>
+      <HOne>Manual do Membro</HOne>
 
       <HTwo>Acesso às Ferramentas:</HTwo>
       <p>Plataforma do Curso</p>
@@ -39,13 +39,13 @@ export function Manual() {
       <HTwo>Aulas Extras (Coletivas - 2 SEMANAS X MÊS)</HTwo>
       <p>Segunda, às 20:00 [Business / Conversation]</p>
       <p>
-        * Funcionam como reposição para feriados e eventuais faltas do aluno.
+        * Funcionam como reposição para feriados e eventuais faltas do membro.
       </p>
 
       <HTwo>Política de Cancelamento:</HTwo>
       <ul>
         <li>
-          Cancelamento de uma Aula Particular: Se o aluno informar 24 horas
+          Cancelamento de uma Aula Particular: Se o membro informar 24 horas
           antes, há possibilidade de reposição em algum sábado às 7h (há fila).
         </li>
         <li>Cancelamento do Curso: Avise com 1 mês de antecedência.</li>

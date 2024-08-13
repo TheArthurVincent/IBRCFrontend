@@ -92,7 +92,7 @@ export default function MyCalendar({ headers, thePermissions }) {
         const res = response.data.listOfStudents;
         setStudentsList(res);
       } catch (error) {
-        console.log(error, "Erro ao encontrar alunos");
+        console.log(error, "Erro ao encontrar membros");
       }
     } else {
       null;
@@ -180,7 +180,7 @@ export default function MyCalendar({ headers, thePermissions }) {
         setLoading(false);
       }, 200);
     } catch (error) {
-      console.log(error, "Erro ao encontrar alunos");
+      console.log(error, "Erro ao encontrar membros");
     }
   };
   const handleChangeWeek = async (sum) => {
@@ -212,7 +212,7 @@ export default function MyCalendar({ headers, thePermissions }) {
         setDisabledAvoid(true);
       }, 100);
     } catch (error) {
-      console.log(error, "Erro ao encontrar alunos");
+      console.log(error, "Erro ao encontrar membros");
     }
   };
   const handleBackToToday = async () => {
@@ -244,7 +244,7 @@ export default function MyCalendar({ headers, thePermissions }) {
         setDisabledAvoid(true);
       }, 100);
     } catch (error) {
-      console.log(error, "Erro ao encontrar alunos");
+      console.log(error, "Erro ao encontrar membros");
     }
   };
 
@@ -284,7 +284,7 @@ export default function MyCalendar({ headers, thePermissions }) {
       setDate(newDate);
       console.log(response.data.event);
     } catch (error) {
-      console.log(error, "Erro ao encontrarssss alunos");
+      console.log(error, "Erro ao encontrarssss membros");
     }
   };
   const fetchOneSetOfTutorings = async (studentId) => {
@@ -301,7 +301,7 @@ export default function MyCalendar({ headers, thePermissions }) {
       setTutoringsListOfOneStudent(response.data.tutorings);
       setLoadingTutoringDays(false);
     } catch (error) {
-      console.log(error, "Erro ao encontrar alunos");
+      console.log(error, "Erro ao encontrar membros");
     }
   };
   const fetchOneSetOfTutoringsInside = (e) => {
@@ -1576,7 +1576,7 @@ export default function MyCalendar({ headers, thePermissions }) {
             </div>
           </>
           <>
-            {/*Modal de nosos/edição de aulas particulares dos alunos */}
+            {/*Modal de nosos/edição de aulas particulares dos membros */}
             <div
               style={{
                 backgroundColor: transparentWhite(),

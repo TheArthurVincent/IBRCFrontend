@@ -42,7 +42,7 @@ export function Homework({ headers, setChange, change }: HWProps) {
       setStudentsList(response.data.listOfStudents);
     } catch (error) {
       onLoggOut();
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 
@@ -92,7 +92,7 @@ export function Homework({ headers, setChange, change }: HWProps) {
       setChange(!change);
       fetchClasses(studentID);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
   const pointsHW = (dueDate: string) => {

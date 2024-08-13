@@ -287,20 +287,20 @@ export const contentFaq = [
         </p>
         <HTwo>Aulas Extras</HTwo>
         <p>
-          Os alunos têm o direito de participar das aulas extras semanais, que
+          Os membros têm o direito de participar das aulas extras semanais, que
           são coletivas, além das aulas particulares contratadas. Essas aulas
-          extras servem como compensação por aulas perdidas pelo aluno e pelos
+          extras servem como compensação por aulas perdidas pelo membro e pelos
           feriados, nos quais o professor não ministrará aulas.
         </p>
         <HTwo>Reposição de Aulas Particulares</HTwo>
         <p>
-          Se o aluno não puder comparecer à aula, deve informar o professor com,
+          Se o membro não puder comparecer à aula, deve informar o professor com,
           no máximo, 24 horas de antecedência para poder repor a aula particular
           conforme a disponibilidade do professor. Se não houver aviso com tal
           antecedência, o professor não terá a obrigação de fazer a reposição da
           aula particular. Os dias para reposição são estabelecidos pelo
-          professor, que irá encaixar o aluno na próxima janela disponível. O
-          aluno deve se comprometer a realizar as atividades propostas pelo
+          professor, que irá encaixar o membro na próxima janela disponível. O
+          membro deve se comprometer a realizar as atividades propostas pelo
           professor para melhor desenvolvimento do curso.
         </p>
         <HTwo>Falta do Professor</HTwo>

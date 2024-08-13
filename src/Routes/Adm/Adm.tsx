@@ -27,10 +27,10 @@ export function Adm({ headers }: HeadersProps) {
       component: <NewTutoring headers={headers} />,
     },
     {
-      title: "Alunos",
+      title: "Membros",
       value: "2",
       tooltip:
-        "Edite informações de alunos cadastrados, como dados, permissões e senha, ou mesmo exclua um aluno se necessário.",
+        "Edite informações de membros cadastrados, como dados, permissões e senha, ou mesmo exclua um membro se necessário.",
       component: <NewStudent headers={headers} />,
     },
     {
@@ -43,25 +43,25 @@ export function Adm({ headers }: HeadersProps) {
       title: "Postagens",
       value: "4",
       tooltip:
-        "Faça uma nova postagem que será vista por todos os alunos na página inicial.",
+        "Faça uma nova postagem que será vista por todos os membros na página inicial.",
       component: <NewPost headers={headers} />,
     },
     {
       title: "Gerar contrato",
       value: "6",
-      tooltip: "Geração do contrato de um aluno específico.",
+      tooltip: "Geração do contrato de um membro específico.",
       component: <Contract headers={headers} />,
     },
     {
       title: "Gerar recibo",
       value: "7",
-      tooltip: "Geração do recibo de um aluno específico.",
+      tooltip: "Geração do recibo de um membro específico.",
       component: <Invoice headers={headers} />,
     },
     {
-      title: "Manual do aluno",
+      title: "Manual do membro",
       value: "8",
-      tooltip: "Manual do aluno.",
+      tooltip: "Manual do membro.",
       component: <Manual />,
     },
   ];

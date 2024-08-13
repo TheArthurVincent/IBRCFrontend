@@ -13,7 +13,7 @@ import { Helmet } from "react-helmet";
 import { MyButton } from "./Components/ItemsLibrary";
 import axios from "axios";
 
-// Função que verifica o nível do aluno
+// Função que verifica o nível do membro
 export function updateScore(totalScore) {
   var level = 1;
   var color = "#000";
@@ -80,7 +80,7 @@ export function updateScore(totalScore) {
   };
 }
 
-// Função que verifica o nível do aluno
+// Função que verifica o nível do membro
 
 export const UniversalButtonsDivFlex = styled.div`
   display: flex;

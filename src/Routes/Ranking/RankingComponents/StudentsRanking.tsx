@@ -190,7 +190,7 @@ export default function StudentsRanking({
       setStudents(response.data.listOfStudents);
       setLoading(false);
     } catch (error) {
-      console.log("Erro ao encontrar alunos");
+      console.log("Erro ao encontrar membros");
     }
   };
   useEffect(() => {

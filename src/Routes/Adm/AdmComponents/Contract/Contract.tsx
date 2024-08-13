@@ -39,7 +39,7 @@ export function Contract({ headers }: HeadersProps) {
       setDoc(response.data.formattedStudentData.doc);
       setDateOfBirth(response.data.formattedStudentData.dateOfBirth);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 
@@ -52,7 +52,7 @@ export function Contract({ headers }: HeadersProps) {
       });
       setStudentsList(response.data.listOfStudents);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 
@@ -113,7 +113,7 @@ export function Contract({ headers }: HeadersProps) {
             textAlign: "center",
           }}
         >
-          Dados do Aluno
+          Dados do Membro
         </HTwo>
         <div
           style={{
@@ -125,7 +125,7 @@ export function Contract({ headers }: HeadersProps) {
           }}
         >
           <p>
-            <strong>Nome do aluno:</strong> {name}
+            <strong>Nome do membro:</strong> {name}
           </p>
           <p>
             <strong>Data de nascimento:</strong> {formatDateBrContract(dateOfBirth)}
@@ -180,10 +180,10 @@ export function Contract({ headers }: HeadersProps) {
             <ul style={ulStyle}>
               <li style={liStyle}>
                 As aulas terão duração de 55 minutos, e os links para as aulas
-                estão disponíveis no Portal do Aluno;
+                estão disponíveis no Portal do Membro;
               </li>
               <li style={liStyle}>
-                O aluno também terá o direito de participar de aulas coletivas,
+                O membro também terá o direito de participar de aulas coletivas,
                 além das aulas particulares contratadas;
                 <p
                   style={{
@@ -193,25 +193,25 @@ export function Contract({ headers }: HeadersProps) {
                   }}
                 >
                   Esta aula extra é considerada compensação por aulas perdidas
-                  pelo aluno, e pelos feriados, nos quais não haverá aulas;
+                  pelo membro, e pelos feriados, nos quais não haverá aulas;
                 </p>
               </li>
               <li style={liStyle}>
-                Se o aluno não puder comparecer à aula, deve informar o
+                Se o membro não puder comparecer à aula, deve informar o
                 professor com, no mínimo, 24 horas de antecedência;
               </li>
               <li style={liStyle}>
-                Se o aluno não avisar ao professor com tal antecedência, o
+                Se o membro não avisar ao professor com tal antecedência, o
                 professor não terá a obrigação de fazer a reposição da aula
                 particular;
               </li>
               <li style={liStyle}>
                 Em caso de falta <strong>do professor</strong>, este reporá a
-                aula ao aluno em horário combinado por ambos.
+                aula ao membro em horário combinado por ambos.
               </li>
               <li style={liStyle}>
                 Os dias para reposição de aula são estabelecidos pelo professor,
-                a quem caberá encaixar o aluno na próxima janela disponível;
+                a quem caberá encaixar o membro na próxima janela disponível;
               </li>
             </ul>
           </li>
@@ -219,17 +219,17 @@ export function Contract({ headers }: HeadersProps) {
             <HThree>Sobre os descontos</HThree>
             <ul style={ulStyle}>
               <li style={liStyle}>
-                O aluno terá direito aos descontos oferecidos na aba "Ranking",
-                por avanço de níveis ou posição no ranking de alunos, conforme o
+                O membro terá direito aos descontos oferecidos na aba "Ranking",
+                por avanço de níveis ou posição no ranking de membros, conforme o
                 critério estabelecido no mês anterior à reivindicação do
                 desconto.
               </li>
               <li style={liStyle}>
-                Caso o aluno faça uma recomendação ao professor, e esta resulte
-                em fechamento de contrato, o aluno receberá um desconto de 10%
-                em relação à mensalidade do aluno recomendado. Este desconto
+                Caso o membro faça uma recomendação ao professor, e esta resulte
+                em fechamento de contrato, o membro receberá um desconto de 10%
+                em relação à mensalidade do membro recomendado. Este desconto
                 ocorrerá uma vez, no mês seguinte ao fechamento do contrato do
-                aluno recomendado.
+                membro recomendado.
               </li>
             </ul>
           </li>
@@ -237,18 +237,18 @@ export function Contract({ headers }: HeadersProps) {
             <HThree>Sobre cancelamento do curso</HThree>
             <ul style={ulStyle}>
               <li style={liStyle}>
-                Em caso de cancelamento do curso, o aluno deve avisar o
+                Em caso de cancelamento do curso, o membro deve avisar o
                 professor com pelo menos <strong>1 mês de antecedência</strong>,
-                o que significa que se o aluno decidir encerrar o curso em
+                o que significa que se o membro decidir encerrar o curso em
                 março, por exemplo, este deverá ainda pagar a parcela de abril;
               </li>
               <li style={liStyle}>
                 Este mês extra também representa mais um mês de aula, caso o
-                aluno deseje. Conforme o exemplo anterior, o aluno poderá fazer
+                membro deseje. Conforme o exemplo anterior, o membro poderá fazer
                 as aulas de abril.
               </li>
               <li style={liStyle}>
-                Após a finalização oficial do curso, o aluno terá uma semana
+                Após a finalização oficial do curso, o membro terá uma semana
                 para baixar todo o material produzido nas aulas. Após este
                 prazo, o mesmo será definitivamente excluído.
               </li>
@@ -258,7 +258,7 @@ export function Contract({ headers }: HeadersProps) {
             <HThree>Sobre as atividades</HThree>
             <ul style={ulStyle}>
               <li style={liStyle}>
-                O aluno deve se comprometer a realizar as atividades propostas
+                O membro deve se comprometer a realizar as atividades propostas
                 pelo professor para melhor desenvolvimento do curso;
               </li>
             </ul>

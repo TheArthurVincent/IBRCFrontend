@@ -71,7 +71,7 @@ const AllCards = ({ headers }: HeadersProps) => {
       });
       setStudentsList(response.data.listOfStudents);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 

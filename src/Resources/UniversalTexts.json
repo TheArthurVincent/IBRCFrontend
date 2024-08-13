@@ -6,7 +6,7 @@
   "uplevel": "Passando de Nível (5% de desconto no mês seguinte à qualificação)",
   "t3000": "Qualificação apenas para quem tem PELO MENOS 3000 pontos no mês!",
   "timeline": "Linha do tempo",
-  "timelineExplanationText": " Nosso sistema de classificação é uma verdadeira celebração de sua dedicação! Cada tarefa realizada, cada meta alcançada e cada passo dado em direção à fluência é uma oportunidade de ganhar pontos e brilhar! Temos dois tipos de pontuação: o MONTHLY SCORE, que é zerado a cada novo mês, e o TOTAL SCORE, que acumula ao longo do tempo. A cada mês, destacamos os líderes da pontuação mensal( MONTHLY SCORE), oferecendo descontos exclusivos ou aulas extras como recompensa, e monitoramos o progresso total de cada aluno, impulsionando-os para novos patamares de fluência. Não é só uma competição; é uma jornada emocionante rumo à excelência linguística!",
+  "timelineExplanationText": " Nosso sistema de classificação é uma verdadeira celebração de sua dedicação! Cada tarefa realizada, cada meta alcançada e cada passo dado em direção à fluência é uma oportunidade de ganhar pontos e brilhar! Temos dois tipos de pontuação: o MONTHLY SCORE, que é zerado a cada novo mês, e o TOTAL SCORE, que acumula ao longo do tempo. A cada mês, destacamos os líderes da pontuação mensal( MONTHLY SCORE), oferecendo descontos exclusivos ou aulas extras como recompensa, e monitoramos o progresso total de cada membro, impulsionando-os para novos patamares de fluência. Não é só uma competição; é uma jornada emocionante rumo à excelência linguística!",
   "rankingExplanation": "Explicação",
   "totalRanking": "Totais",
   "monthlyRanking": "Ranking Mensal",
@@ -16,7 +16,7 @@
   "homePage": "Página Inicial",
   "fee": "Mensalidade",
   "hello": "Olá, ",
-  "welcome": "Bem-vindo (a) ao seu portal de alunos!",
+  "welcome": "Bem-vindo (a) ao seu portal de membros!",
   "access": "Aqui, você tem acesso a tudo o que é necessário para seguir com seus estudos de inglês!",
   "nextClass": "Próxima aula",
   "nextLive": "Próxima aula em grupo:",
@@ -65,7 +65,7 @@
   "loading": "Carregando...",
   "deleteConfirm": "Excluir post? (Esta ação não pode ser desfeita)",
   "id": "ID",
-  "myStudents": "Meus alunos",
+  "myStudents": "Meus membros",
   "nextClasses": "Próximas aulas",
   "courses": [
     {

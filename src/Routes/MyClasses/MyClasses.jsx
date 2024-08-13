@@ -61,7 +61,7 @@ export function MyClasses({ headers }) {
         });
         setStudentsList(response.data.listOfStudents);
       } catch (error) {
-        alert("Erro ao encontrar alunos");
+        alert("Erro ao encontrar membros");
       }
     } else { }
   };

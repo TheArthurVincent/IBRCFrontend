@@ -103,7 +103,7 @@ export function AllClasses({ headers }) {
               margin: "1rem",
             }}
             type="text"
-            placeholder="Buscar por nome do aluno"
+            placeholder="Buscar por nome do membro"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
           />{" "}

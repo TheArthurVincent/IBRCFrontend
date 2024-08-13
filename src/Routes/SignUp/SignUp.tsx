@@ -109,7 +109,7 @@ export function SignUp() {
         </span>
       </Link>
       <RouteDiv style={{ maxWidth: "25rem", margin: "2rem auto" }}>
-        <HOne>Cadastro de Aluno</HOne>
+        <HOne>Cadastro de Membro</HOne>
         <form
           style={{
             padding: "5px",

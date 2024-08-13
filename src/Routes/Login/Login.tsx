@@ -26,7 +26,7 @@ export function Login() {
     setFail(false);
 
     setButton(<CircularProgress style={{ color: secondaryColor() }} />);
-    
+
     try {
       const response = await axios.post(`${backDomain}/api/v1/studentlogin/`, {
         email,
@@ -53,8 +53,6 @@ export function Login() {
       setButton("Entrar");
     }
   };
-
-  const myLogo = LogoSVG(primaryColor(), secondaryColor(), 2.5);
 
   return (
     <div
@@ -85,7 +83,14 @@ export function Login() {
                 borderRadius: "10px",
               }}
             >
-              <div style={{ margin: "0 auto" }}>{myLogo}</div>
+              <img
+                src="https://ik.imagekit.io/vjz75qw96/assets/IBRC/logo.png?updatedAt=1687980892018"
+                alt="logoibrc"
+                style={{
+                  maxWidth: "11rem",
+                  margin: "auto",
+                }}
+              />
               <InputField
                 value={email}
                 onChange={(event: any) => setEmail(event.target.value)}

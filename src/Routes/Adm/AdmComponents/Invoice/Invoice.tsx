@@ -32,7 +32,7 @@ export function Invoice({ headers }: HeadersProps) {
       setFee(response.data.formattedStudentData.fee);
       setDoc(response.data.formattedStudentData.doc);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 
@@ -45,7 +45,7 @@ export function Invoice({ headers }: HeadersProps) {
       });
       setStudentsList(response.data.listOfStudents);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
   useEffect(() => {

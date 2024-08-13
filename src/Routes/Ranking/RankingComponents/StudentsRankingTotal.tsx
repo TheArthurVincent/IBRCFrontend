@@ -38,7 +38,7 @@ export default function StudentsRankingTotal({ headers }: HeadersProps) {
       setStudents(response.data.listOfStudents);
       setLoading(false);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
   useEffect(() => {

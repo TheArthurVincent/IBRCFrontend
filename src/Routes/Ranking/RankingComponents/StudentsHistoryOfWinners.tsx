@@ -198,7 +198,7 @@ export default function StudentsHistoryOfWinners({
       setStudents(response.data.listOfStudents);
       setLoading(false);
     } catch (error) {
-      console.log("Erro ao encontrar alunos");
+      console.log("Erro ao encontrar membros");
     }
   };
   const [history, setHistory] = useState<any>([]);
@@ -235,7 +235,7 @@ export default function StudentsHistoryOfWinners({
       setLoading(false);
       gettingHistory();
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 

@@ -117,7 +117,7 @@ export default function EnglishLessonsRender({
       });
       setStudentsList(response.data.listOfStudents);
     } catch (error) {
-      alert("Erro ao encontrar alunos");
+      alert("Erro ao encontrar membros");
     }
   };
 
