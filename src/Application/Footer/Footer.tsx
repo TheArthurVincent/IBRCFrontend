@@ -1,18 +1,13 @@
 import React from "react";
-import { LogoSVG } from "../../Resources/UniversalComponents";
 import {
   alwaysBlack,
   alwaysWhite,
-  darkGreyColor,
-  mediumGreyColor,
 } from "../../Styles/Styles";
 
-interface AppFooterIn  {
-  see:boolean
+interface AppFooterIn {
+  see: boolean;
 }
-export default function AppFooter({see}:AppFooterIn) {
- 
-  const myLogo = LogoSVG(darkGreyColor(), mediumGreyColor(), 1.3);
+export default function AppFooter({ see }: AppFooterIn) {
   return (
     <footer
       className="footer no-print"
@@ -23,17 +18,20 @@ export default function AppFooter({see}:AppFooterIn) {
         color: alwaysBlack(),
         alignItems: "center",
         justifyContent: "space-evenly",
-        padding: "0.5rem",
+        padding: "1rem",
         width: "100%",
       }}
     >
-      {myLogo}
+      <img
+        style={{
+          maxWidth: "7rem",
+        }}
+        src="https://ik.imagekit.io/vjz75qw96/assets/IBRC/logo.png?updatedAt=1687980892018"
+        alt="logo"
+      />{" "}
       <span>
-        This platform is powered by ARVIN ENGLISH SCHOOL © Some rights reserved{" "}
-        <br />
-        Arthur Vincent
-        <br />
-        +55 11 91585-7807
+        Igreja Batista Reformada de Cotia <br />
+        Estr. Padre Inácio, 952/956 - Centreville, Cotia - SP, 06719-050
       </span>
     </footer>
   );

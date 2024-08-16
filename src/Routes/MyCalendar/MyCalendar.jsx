@@ -82,6 +82,9 @@ export default function MyCalendar({ headers, thePermissions }) {
 
   const futureDates = [];
 
+  useEffect(() => {
+    console.log(hj);
+  }, []);
   // AXIOS
   const fetchStudents = async () => {
     if (thePermissions == "superadmin") {

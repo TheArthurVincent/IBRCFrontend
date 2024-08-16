@@ -6,15 +6,15 @@
 // export const textFont = (): string => "Roboto";
 // export const textTitleFont = (): string => "Bitter";
 
-export const primaryColor = (): string => "#001e42";
-export const primaryColor2 = (): string => "#001E90";
-export const secondaryColor = (): string => "#54bf08";
-export const secondaryColor2 = (): string => "#84DE08";
+export const primaryColor = (): string => "#000";
+export const primaryColor2 = (): string => "#222";
+export const secondaryColor = (): string => "#54683d";
+export const secondaryColor2 = (): string => "#728c53";
 export const textFont = (): string => "Lato";
-export const textTitleFont = (): string => "Athiti";
+export const textTitleFont = (): string => "Cinzel";
 
-export const textPrimaryColorContrast = (): string => "#fefefe";
-export const textSecondaryColorContrast = (): string => "#fff";
+export const textPrimaryColorContrast = (): string => "#eee";
+export const textSecondaryColorContrast = (): string => "#eee";
 
 // Fixed
 export const darkGreyColor = (): string => "#222";

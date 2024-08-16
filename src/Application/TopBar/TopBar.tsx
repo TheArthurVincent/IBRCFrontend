@@ -8,7 +8,7 @@ import {
   LogoStyle,
   Hamburguer,
 } from "./TopBar.Styled";
-import { LogoSVG, onLoggOut, SpanHover } from "../../Resources/UniversalComponents";
+import { onLoggOut, SpanHover } from "../../Resources/UniversalComponents";
 import { useUserContext } from "../SelectLanguage/SelectLanguage";
 import {
   primaryColor,
@@ -120,36 +120,6 @@ export const TopBar: FC = () => {
       display: "block",
     },
     {
-      title: "Homework",
-      endpoint: "/homework",
-      icon: "book",
-      display: "block",
-    },
-    {
-      title: "Flashcards",
-      endpoint: "/flash-cards",
-      icon: "clone",
-      display: "block",
-    },
-    {
-      title: "Ranking",
-      endpoint: "/ranking",
-      icon: "th-list",
-      display: "block",
-    },
-    {
-      title: UniversalTexts.myClasses,
-      endpoint: "/my-classes",
-      icon: "user",
-      display: "block",
-    },
-    {
-      title: UniversalTexts.groupClasses,
-      endpoint: "/group-classes",
-      display: "block",
-      icon: "users",
-    },
-    {
       title: "Courses",
       endpoint: "/english-courses",
       icon: "address-book-o",
@@ -173,19 +143,19 @@ export const TopBar: FC = () => {
     setVisible(visible === "flex" ? "none" : "flex");
   };
   const location = useLocation();
-  const myLogo = LogoSVG(primaryColor(), secondaryColor(), 1);
   return (
     <TopBarContainer>
       <Hamburguer onClick={handleVisible}>☰</Hamburguer>
       <SpanDisapear>
         <Link to="/">
-          <LogoStyle
+          <img
             style={{
-              display: seeItems ? "block" : "none",
+              maxWidth: "10rem",
+              margin: "auto",
             }}
-          >
-            {myLogo}
-          </LogoStyle>
+            src="https://ik.imagekit.io/vjz75qw96/assets/IBRC/logo.png?updatedAt=1687980892018"
+            alt=""
+          />
         </Link>
       </SpanDisapear>
 
