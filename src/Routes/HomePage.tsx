@@ -7,7 +7,7 @@ import MyProfile from "./MyProfile/MyProfile";
 import Faq from "./Faq/Faq";
 import MyCalendar from "./MyCalendar/MyCalendar";
 import Adm from "./Adm/Adm";
-import Blog from "./Blog/Blog";
+import Blog from "./Liturgias/Liturgias";
 import { BlogRouteSizeControlBox } from "../Resources/Components/RouteBox";
 import { HeadersProps } from "../Resources/types.universalInterfaces";
 import { TopBar } from "../Application/TopBar/TopBar";

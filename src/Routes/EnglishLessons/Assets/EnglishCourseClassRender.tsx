@@ -18,7 +18,7 @@ import {
   Xp,
 } from "../../../Resources/UniversalComponents";
 import { ArvinButton } from "../../../Resources/Components/ItemsLibrary";
-import { IFrameVideoBlog } from "../../Blog/Blog.Styled";
+import { IFrameVideoBlog } from "../../Liturgias/Liturgias.Styled";
 import Helmets from "../../../Resources/Helmets";
 import VideoLessonModel from "./LessonsModels/VideoLessonModel";
 import CoursesSideBar, {

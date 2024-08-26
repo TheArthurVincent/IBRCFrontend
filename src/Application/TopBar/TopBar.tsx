@@ -17,7 +17,7 @@ import {
 } from "../../Styles/Styles";
 import { ItemTopBarProps, LinkItem } from "./TopBarTypes";
 import { ArvinButton } from "../../Resources/Components/ItemsLibrary";
-import { SpanDisapear } from "../../Routes/Blog/Blog.Styled";
+import { SpanDisapear } from "../../Routes/Liturgias/Liturgias.Styled";
 
 const ItemTopBar: FC<ItemTopBarProps> = ({ title, list }) => {
   const [isHovered, setIsHovered] = useState(false);

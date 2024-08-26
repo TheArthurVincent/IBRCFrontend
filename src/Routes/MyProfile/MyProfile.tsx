@@ -15,7 +15,7 @@ import { User } from "./types.MyProfile";
 import { HeadersProps } from "../../Resources/types.universalInterfaces";
 import Helmets from "../../Resources/Helmets";
 import { ArvinButton } from "../../Resources/Components/ItemsLibrary";
-import { SpanDisapear } from "../Blog/Blog.Styled";
+import { SpanDisapear } from "../Liturgias/Liturgias.Styled";
 
 export function MyProfile({ headers }: HeadersProps) {
   const { UniversalTexts } = useUserContext();

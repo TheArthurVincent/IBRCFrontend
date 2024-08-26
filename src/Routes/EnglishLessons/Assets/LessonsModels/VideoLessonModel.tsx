@@ -1,6 +1,6 @@
 import React from "react";
 import { getVideoEmbedUrl } from "../../../../Resources/UniversalComponents";
-import { IFrameVideoBlog } from "../../../Blog/Blog.Styled";
+import { IFrameVideoBlog } from "../../../Liturgias/Liturgias.Styled";
 interface VideoLessonModelProps {
   element: any;
 }
