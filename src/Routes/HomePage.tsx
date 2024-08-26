@@ -7,7 +7,7 @@ import MyProfile from "./MyProfile/MyProfile";
 import Faq from "./Faq/Faq";
 import MyCalendar from "./MyCalendar/MyCalendar";
 import Adm from "./Adm/Adm";
-import Blog from "./Liturgias/Liturgias";
+import Blog, { Liturgias } from "./Liturgias/Liturgias";
 import { BlogRouteSizeControlBox } from "../Resources/Components/RouteBox";
 import { HeadersProps } from "../Resources/types.universalInterfaces";
 import { TopBar } from "../Application/TopBar/TopBar";
@@ -41,21 +41,27 @@ export function HomePage({ headers }: HeadersProps) {
   const appRoutes = [
     {
       path: "/",
-      title: "My Calendar",
+      title: "Liturgias",
+      component: (
+        <Liturgias headers={headers} />
+      ),
+    },
+    {
+      title: "Meu Calendario",
       component: (
         <MyCalendar thePermissions={thePermissions} headers={headers} />
       ),
     },
     {
-      title: "English Courses",
+      title: "Cursos",
       component: <EnglishCourses headers={headers} />,
     },
     {
-      title: "FAQ",
+      title: "Perguntas",
       component: <Faq headers={headers} />,
     },
     {
-      title: "My Profile",
+      title: "Meu Perfil",
       component: <MyProfile headers={headers} />,
     },
     {
